@@ -1,7 +1,8 @@
 name: wearos_curved_scrollbar
 description: "A simple widget that can display a wear OS style curved track."
 version: 0.0.1
-homepage:
+homepage: https://github.com/cotw-fabier/wearos_curved_scrollbar
+repository: https://github.com/cotw-fabier/wearos_curved_scrollbar
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
