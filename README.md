@@ -21,7 +21,7 @@ Add the following line to your `pubspec.yaml` file under `dependencies`:
 
 ```yaml
 dependencies:
-  curved_scrollbar: ^0.0.2
+  curved_scrollbar: ^0.0.3
 ```
 
 Then, run `flutter pub get` to install the package.
@@ -85,7 +85,7 @@ The `CurvedScrollbar` widget offers several customization options:
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request on the [GitHub repository](https://github.com/yourusername/curved_scrollbar).
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request on the [GitHub repository](https://github.com/cotw-fabier/wearos_curved_scrollbar).
 
 ## License
 
