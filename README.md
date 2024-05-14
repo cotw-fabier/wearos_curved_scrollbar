@@ -31,7 +31,7 @@ Then, run `flutter pub get` to install the package.
 To use CurvedScrollbar, simply wrap your scrollable widget with `CurvedScrollbar`:
 
 ```dart
-import 'package:curved_scrollbar/curved_scrollbar.dart';
+import 'package:wearos_curved_scrollbar/wearos_curved_scrollbar.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
