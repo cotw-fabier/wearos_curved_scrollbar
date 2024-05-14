@@ -30,14 +30,12 @@ class CurvedScrollbar extends StatefulWidget {
 
 class _CurvedScrollbarState extends State<CurvedScrollbar>
     with SingleTickerProviderStateMixin {
-  bool _isScrolling = true;
   Timer? _hideTimer;
   late AnimationController _animationController;
 
   @override
   void initState() {
     super.initState();
-    //widget.controller.addListener(_onScroll);
     _animationController = AnimationController(
       duration: const Duration(milliseconds: 300),
       vsync: this,
@@ -47,7 +45,6 @@ class _CurvedScrollbarState extends State<CurvedScrollbar>
 
   @override
   void dispose() {
-    //widget.controller.removeListener(_onScroll);
     _hideTimer?.cancel();
     _animationController.dispose();
     super.dispose();
@@ -64,15 +61,10 @@ class _CurvedScrollbarState extends State<CurvedScrollbar>
       _hideTimer!.cancel();
     }
     setState(() {
-      _isScrolling = true;
       _animationController.forward();
     });
     _hideTimer = Timer(Duration(seconds: 1), () {
-      _animationController.reverse().then((_) {
-        setState(() {
-          _isScrolling = false;
-        });
-      });
+      _animationController.reverse().then((_) {});
     });
   }
 
