@@ -21,7 +21,7 @@ Add the following line to your `pubspec.yaml` file under `dependencies`:
 
 ```yaml
 dependencies:
-  curved_scrollbar: ^0.0.1
+  curved_scrollbar: ^0.0.2
 ```
 
 Then, run `flutter pub get` to install the package.
